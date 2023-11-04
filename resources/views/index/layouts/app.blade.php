@@ -1,0 +1,10 @@
+@extends("base")
+@section("head")
+    @include("index.layouts.head")
+    @stack("home.head.css")
+@endsection
+@section("body")
+    @include("index.layouts.header")
+    @yield("content")
+    @include("index.layouts.footer")
+@endsection

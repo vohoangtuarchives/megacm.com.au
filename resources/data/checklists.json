@@ -1,0 +1,55 @@
+{
+  "living-area": [
+    "Vacuum Closet Space",
+    "Vacuum Carpets",
+    "Mop Floor*",
+    "Empty Rubbish and Replace Bin Lining",
+    "Dust Furniture and Decorations",
+    "Make Beds",
+    "Wipe Down and Scrub of Window Sills",
+    "Cleaning of Mirrors",
+    "Wiping Down Light Switches",
+    "Remove Visible Clutter From Floors",
+    "Cleaning Underneath Area Rugs",
+    "Wipe Down Living Area Cabinentry & Appliances"
+  ],
+  "kitchen": [
+    "Clean Stovetop and Rangehood*",
+    "Wipe Down Oven Door Handle",
+    "Clean The Inside & Outside Microwave",
+    "Vacuum & Mop FLoors",
+    "Clean Outside of Countertop Appliances",
+    "Wipe Large Kitchen Appliances",
+    "Clean Sink",
+    "Stack & Run The Dishwasher",
+    "Sanitise & Wipe Down Kitchen Island and Benchtop",
+    "Clean & Disinfect Kitchen Splashback",
+    "Empty & Change Kitchen Bin Lining"
+  ],
+  "bathroom": [
+    "Scrub & Clean Toilets and Sinks",
+    "Scrub & Clean Showers & Tubs",
+    "Clean Soap Dish",
+    "Clean Mirrors",
+    "Clean Shower Head",
+    "Mop Floor",
+    "Remove Excess Soap Scum & Mineral Water Build Up From Shower Stall"
+  ],
+  "wet-area": [
+    "Dust Cabinet Doors",
+    "Clean Countertops",
+    "Vacuum Area Rugs"
+  ],
+  "extra": [
+    "Fridge Cleaning",
+    "Oven Cleaning",
+    "Balcony/Garage/Patio Sweep",
+    "Full Wall Washing",
+    "Carpet Steam Cleaning",
+    "Granny Flat Cleaning",
+    "End of Lease Cleaning",
+    "Construction Cleaning",
+    "Deep/Spring Cleaning",
+    "Window Cleaning"
+  ]
+}

@@ -1,0 +1,20 @@
+@import "~bootstrap/scss/bootstrap";
+@import "partials/variables";
+
+@for $i from 10 through 30{
+  .fs-#{$i}{
+    font-size: $i * 1px;
+  }
+}
+
+@for $i from 6 through 10{
+  .py-#{$i}{
+    padding-top: $i * 8px;
+    padding-bottom: $i * 8px;
+  }
+}
+.inherit, .inherit > *{
+  color: inherit;
+  font-size: inherit;
+  font-family: inherit;
+}
