@@ -30,8 +30,7 @@ class MegaCMManager{
         return News::where("type", "=", "faq")->whereRaw("FIND_IN_SET('hienthi',status) and FIND_IN_SET('noibat',status)")->take(15)->get();
     }
     public function hotBranch(){
-//        return ProductBrand::where("type", "=", "service")->whereRaw("FIND_IN_SET('hienthi',status) and FIND_IN_SET('noibat',status)")->take(15)->get();
-        return [];
+        return Location::take(15)->get();
     }
 
 
