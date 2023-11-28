@@ -51,8 +51,9 @@ areas in a timely manner.',
         /**
          * Faq Seeder
          */
+        Faq::unguard();
         foreach ($faqs as $title => $content){
-            Faq::create([
+            Faq::insert([
                 'name' => $title,
                 'content' => $content,
                 'desc' => $content,
@@ -62,5 +63,6 @@ areas in a timely manner.',
                 "faq_category_id" => 1
             ]);
         }
+        Faq::reguard();
     }
 }
