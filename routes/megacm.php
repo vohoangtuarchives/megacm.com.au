@@ -9,4 +9,7 @@ Route::get('/carts-items', [\App\Http\Controllers\Dashboard\CartItemController::
 Route::get('/faqs', [\App\Http\Controllers\Dashboard\FaqController::class, "show"])
     ->permission("Faqs Manage")
     ->name("faqs.items.index");
+Route::get('/faq-category', [\App\Http\Controllers\Dashboard\FaqController::class, "show"])
+    ->permission("Faqs Manage")
+    ->name("faqs.items.index");
 

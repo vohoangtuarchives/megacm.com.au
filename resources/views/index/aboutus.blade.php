@@ -40,10 +40,16 @@
                 </span>
             </h3>
             <div class="content py-4">
-                We here to help you keep your personal spaces in Penrith looking clean and stylish! We're here to take
-                our cleaning services to your office, house, or NDIS space and make it the coolest spot in town. Our crew is all about giving you that spotless, hassle-free vibe, using eco-friendly gear and mad skills to make it happen. We're all about those little deets, leaving no corner unturned.
-
-                Our mission? It's all about leveling up your game. We reckon a clean space equals a good life, and we're here to make that happen. So kick back, relax, and let us handle the dirty work. We're here to make Penrith shine, one clean crib at a time!
+                We are a customer focused cleaning business with a mission to provide our residential and
+                commercial customers with superior services by delivering the highest quality cleaning
+                standards in a professional and efficient manner.
+                We are dedicated to creating a strong and trusting relationships with our customers and strive
+                to exceed their expectations through exceptional customer service while still offering
+                competitive pricing. We aim to o create a safe, clean and healthy environment that is free from
+                germs, bacteria, and other dangerous elements that can cause health issues by using eco-
+                friendly and non-toxic cleaning products and techniques designed to ensure the highest
+                standards of cleanliness. Our ultimate goal to maintain sustainable industry leading standards
+                and business practices and to be respectful to the living environment.
             </div>
         </div>
     </div>
