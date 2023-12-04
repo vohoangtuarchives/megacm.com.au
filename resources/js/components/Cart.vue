@@ -1,10 +1,12 @@
 <script>
 import Addon from "@/components/Addon.vue";
+import axios from "axios";
 
 export default {
   components: {Addon},
   props: {
     action: String,
+    resources: String,
   },
   data: () => ({
     categories: [],
@@ -16,7 +18,16 @@ export default {
     bathroom_selected: "NOT_SELECTED",
     storey_selected: "NOT_SELECTED",
     total_amount: 0,
-    addons: []
+    addons: [],
+    firstname: "",
+    lastname: "",
+    email: "",
+    phone: "",
+    address: "",
+    city: "",
+    apt_suite: "",
+    post_code: "",
+    state: "",
   }),
 
   created() {
@@ -32,6 +43,34 @@ export default {
     addons: 'totalAmount'
   },
   methods: {
+    async submit() {
+      let form = {
+        category: this.category_selected,
+        bedroom: this.bedroom_selected,
+        bathroom:  this.bathroom_selected,
+        storey: this.storey_selected,
+        addons:  this.addons,
+        firstname: this.firstname,
+        lastname: this.lastname,
+        email: this.email,
+        phone: this.phone,
+        address: this.address,
+        city: this.city,
+        apt_suite: this.apt_suite,
+        post_code: this.post_code,
+        state: this.state,
+        total_price: this.total_amount,
+        _token: this.action
+      };
+
+      axios.put("book-now", form).then(function (response){
+        if(response.data.success){
+          let order = response.data.order;
+          alert("Your order is successfully. We will contact you ASAP.");
+          location.href = "https://megacm.com.au";
+        }
+      })
+    },
     totalAmount(){
       this.total_amount = 0;
       if(this.bedroom_selected.price){
@@ -58,7 +97,7 @@ export default {
        this.totalAmount();
     },
     async fetchData() {
-      const url = this.action;
+      const url = this.resources;
       this.services = await (await fetch(url)).json();
       this.categories = this.services.tags_info;
       this.storeys = this.services.storeys;
@@ -87,7 +126,7 @@ export default {
 </script>
 
 <template>
-  <from class="row">
+  <form class="row" @submit.prevent="submit"  :action='action' method="POST">
       <div class="col-lg-8">
         <div class="mb-4">
           <div class="form-label"><strong>Which service are you interested in?</strong></div>
@@ -148,31 +187,31 @@ export default {
               <div class="form-label"><strong>Contact Information</strong></div>
             </div>
             <div class="col-md-6 col-12 mb-3">
-              <input type="text" class="form-control" name="first_name" placeholder="First Name">
+              <input type="text" class="form-control" name="first_name" placeholder="First Name" v-model="firstname">
             </div>
             <div class="col-md-6 col-12 mb-3">
-              <input type="text" class="form-control" name="last_name" placeholder="Last Name">
+              <input type="text" class="form-control" name="last_name" placeholder="Last Name" v-model="lastname">
             </div>
             <div class="col-md-6 col-12 mb-3">
-              <input type="text" class="form-control" name="email" placeholder="Email">
+              <input type="text" class="form-control" name="email" placeholder="Email" v-model="email">
             </div>
             <div class="col-md-6 col-12 mb-3">
-              <input type="text" class="form-control" name="phone" placeholder="Phone">
+              <input type="text" class="form-control" name="phone" placeholder="Phone" v-model="phone">
             </div>
             <div class="col-12 mb-3">
-              <input type="text" class="form-control" name="address" placeholder="Address">
+              <input type="text" class="form-control" name="address" placeholder="Address" v-model="address">
             </div>
             <div class="col-3 mb-3">
-              <input type="text" class="form-control" name="city" placeholder="City">
+              <input type="text" class="form-control" name="city" placeholder="City" v-model="city">
             </div>
             <div class="col-3 mb-3">
-              <input type="text" class="form-control" name="apt_suite" placeholder="Apt/Suite #">
+              <input type="text" class="form-control" name="apt_suite" placeholder="Apt/Suite #" v-model="apt_suite">
             </div>
             <div class="col-3 mb-3">
-              <input type="text" class="form-control" name="post_code" placeholder="Post code">
+              <input type="text" class="form-control" name="post_code" placeholder="Post code" v-model="post_code">
             </div>
             <div class="col-3 mb-3">
-              <input type="text" class="form-control" name="state" placeholder="State">
+              <input type="text" class="form-control" name="state" placeholder="State" v-model="state">
             </div>
           </div>
       </div>
@@ -189,7 +228,7 @@ export default {
         </div>
       </div>
     </div>
-  </from>
+  </form>
 </template>
 <style scoped lang="scss">
   .table-subtotal{

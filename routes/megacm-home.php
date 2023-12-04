@@ -23,6 +23,7 @@ use Illuminate\Support\Facades\Route;
 Route::name("home.")->group(function (){
     Route::get("/", [IndexController::class, "index"])->name("index");
     Route::get("book-now", [OrderController::class , "book"])->name("order.book-now");
+    Route::put("book-now", [OrderController::class , "order"])->name("order.book-now.save");
     Route::get("order/services", [OrderController::class , "services"])->name("order.services");
     Route::get("about-us", [IndexController::class, "aboutus"])->name("about");
     Route::get("careers", [IndexController::class, "index"])->name("career");

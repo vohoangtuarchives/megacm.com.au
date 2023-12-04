@@ -3,7 +3,7 @@
     <div class="block py-5">
         <div class="container">
             <div id="cart">
-                <Cart action="{{route('home.order.services')}}"/>
+                <Cart resources="{{route('home.order.services')}}" action="{{csrf_token()}}"/>
             </div>
         </div>
     </div>
