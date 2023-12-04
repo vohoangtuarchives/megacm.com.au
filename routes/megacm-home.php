@@ -4,6 +4,7 @@ use App\Http\Controllers\Home\BlogController;
 use App\Http\Controllers\Home\ContactController;
 use App\Http\Controllers\Home\FaqController;
 use App\Http\Controllers\Home\IndexController;
+use App\Http\Controllers\Home\OrderController;
 use App\Http\Controllers\Home\PricingController;
 use App\Http\Controllers\Home\ServiceController;
 use Illuminate\Support\Facades\Route;
@@ -21,9 +22,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::name("home.")->group(function (){
     Route::get("/", [IndexController::class, "index"])->name("index");
-    Route::get("book-now", function (){
-        return view("index.errors.comming");
-    });
+    Route::get("book-now", [OrderController::class , "book"])->name("order.book-now");
+    Route::get("order/services", [OrderController::class , "services"])->name("order.services");
     Route::get("about-us", [IndexController::class, "aboutus"])->name("about");
     Route::get("careers", [IndexController::class, "index"])->name("career");
     Route::get("pricing", [IndexController::class, "index"])->name("pricing");

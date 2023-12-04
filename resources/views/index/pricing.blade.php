@@ -3,7 +3,7 @@
 @section("content")
     <div class="block py-5 bg-grey">
         <div class="container">
-            <h3 class="h3-title text-center"><span>SUPERIOR CLEANING SERVICE AT A VERY COMPETITIVE PRICES</span></h3>
+            <h3 class="h3-title text-center"><span>SUPERIOR CLEANING SERVICE AT A VERY COMPETITIVE PRICE</span></h3>
             <div class="w-100 d-flex justify-content-evenly my-4">
                 <div class="__image">
                     <img class="img-fluid" src="https://www.maidforyou.com.au/wp-content/uploads/2023/01/Book-Your-Cleaning.png" alt="https://www.maidforyou.com.au/wp-content/uploads/2023/01/Book-Your-Cleaning.png">
@@ -43,7 +43,7 @@
                                 </div>
                             </div>
                             <p>If you’re not happy with our work, we make it right!</p>
-                            <a href="book-now" target="_self" class="btn btn-success btn-book-now">
+                            <a href="{{ route("home.order.book-now") }}" target="_self" class="btn btn-success btn-book-now">
                                 <span class="fl-button-text">BOOK NOW</span>
                             </a>
                         </div>

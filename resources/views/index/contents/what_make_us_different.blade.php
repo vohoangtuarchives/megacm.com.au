@@ -21,7 +21,7 @@
         </li>
     </ul>
     <div class="text-center mb-5">
-        <a href="book-now" target="_self" class="btn btn-success btn-book-now mx-auto">
+        <a href="{{ route("home.order.book-now") }}" target="_self" class="btn btn-success btn-book-now mx-auto">
             <span class="fl-button-text">GET AN EXACT PRICE</span>
         </a>
     </div>

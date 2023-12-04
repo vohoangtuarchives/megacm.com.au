@@ -17,10 +17,11 @@
                        <div class="textwidget mb-4">
                            <h3>GET IN TOUCH</h3>
                            <p><strong>{{ \App\Facades\MegaCM::title() }}</strong><br>
-                               <strong>Phone:</strong> <a href="tel:481686339">0481686339</a><br>
-                               <strong>Email:</strong> <a href="mailto:sales@megacm.com.au">sales@megacm.com.au</a><br>
-                               <strong>ACN:</strong> 668 754 363<br>
-                               <strong>Address: </strong>Unit 9/41-43 Jamison RdKingswood NSW 2747</p>
+                               <strong>Phone:</strong> <a href="tel:{{ core()->getSetting("hotline") }}">{{ core()->getSetting("hotline") }}</a><br>
+                               <strong>Email:</strong> <a href="mailto:{{ core()->getSetting("email") }}">{{ core()
+                               ->getSetting("email") }}</a><br>
+                               <strong>ACN:</strong> {{ core()->getSetting("acn") }}<br>
+                               <strong>Address: </strong>{{ core()->getSetting("address") }}</p>
                        </div>
                        <div class="textwidget">
                            <h3>Helpful Links</h3>

@@ -165,7 +165,7 @@
                                 </div>
                             </div>
                             <p>If you’re not happy with our work, we make it right!</p>
-                            <a href="book-now" target="_self" class="btn btn-success btn-book-now">
+                            <a href="{{ route("home.order.book-now") }}" target="_self" class="btn btn-success btn-book-now">
                                 <span class="fl-button-text">BOOK NOW</span>
                             </a>
                         </div>

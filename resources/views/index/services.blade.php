@@ -51,12 +51,11 @@
 
             </div>
             <div class="text-center my-3">
-                <a href="book-now" target="_self" class="btn btn-success btn-book-now">
+                <a href="{{ route("home.order.book-now") }}" target="_self" class="btn btn-success btn-book-now">
                     <span class="fl-button-text">BOOK NOW</span>
                 </a>
             </div>
         </div>
     </div>
 
-    @include("index.components.faqs")
 @endsection

@@ -320,3 +320,15 @@ ul.v-list-location{
     grid-template-columns: 1fr 1fr;
   }
 }
+
+.extra-item{
+  text-align: center;
+  font-size: 14px;
+  border: 1px solid #333;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+.extra-item:hover{
+  filter: invert(0.1);
+}

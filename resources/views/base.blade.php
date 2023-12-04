@@ -13,5 +13,7 @@
 <body>
     <div id="app"></div>
     @yield("body")
+
+    @stack("vue")
 </body>
 </html>

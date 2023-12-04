@@ -57,7 +57,7 @@
                         </tr>
                         <tr>
                             <td></td>
-                            <td class="link"><a href="book-now">BOOK NOW</a></td>
+                            <td class="link"><a href="{{ route("home.order.book-now") }}">BOOK NOW</a></td>
                         </tr>
                         </tbody>
                     </table>
@@ -105,7 +105,7 @@
 
             </div>
             <div class="text-center my-3">
-                <a href="book-now" target="_self" class="btn btn-success btn-book-now">
+                <a href="{{ route("home.order.book-now") }}" target="_self" class="btn btn-success btn-book-now">
                     <span class="fl-button-text">BOOK NOW</span>
                 </a>
             </div>

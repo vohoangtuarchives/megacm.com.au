@@ -31,7 +31,7 @@
 
         </div>
         <div class="text-center my-3">
-            <a href="book-now" target="_self" class="btn btn-success btn-book-now">
+            <a href="{{ route("home.order.book-now") }}" target="_self" class="btn btn-success btn-book-now">
                 <span class="fl-button-text">BOOK NOW</span>
             </a>
         </div>
@@ -87,7 +87,7 @@
                         With this cleaning method, we will take excellent care of your heavily soiled carpets and rugs using a carpet shampooing machine. The foamy cleaning solution will cut through grease, grime, and dirt before we finally extract the shampoo and water with the same powerful machine that removes up 95% of moisture!
                     </p>
                     <div class="my-3">
-                        <a href="book-now" target="_self" class="btn btn-success btn-book-now py-3 px-5">
+                        <a href="{{ route("home.order.book-now") }}" target="_self" class="btn btn-success btn-book-now py-3 px-5">
                             <span class="fl-button-text">BOOK NOW</span>
                         </a>
                     </div>
@@ -126,7 +126,7 @@
                             you can be sure of two things – immaculate and fresh-smelling carpets and rugs! By paying close attention to detail, our carpet cleaners will address the root cause of the foul smell and carry out odour-eliminating cleaning methods to ensure a fresh, pleasant-smelling result.
                     </p>
                     <div class="my-3">
-                        <a href="book-now" target="_self" class="btn btn-success btn-book-now py-3 px-5">
+                        <a href="{{ route("home.order.book-now") }}" target="_self" class="btn btn-success btn-book-now py-3 px-5">
                             <span class="fl-button-text">BOOK NOW</span>
                         </a>
                     </div>
@@ -251,7 +251,7 @@
                                 </tr>
                                 <tr>
                                     <td></td>
-                                    <td class="link"><a href="book-now">BOOK NOW</a></td>
+                                    <td class="link"><a href="{{ route("home.order.book-now") }}">BOOK NOW</a></td>
                                 </tr>
                                 </tbody>
                             </table>
@@ -293,7 +293,7 @@
                                 </tr>
                                 <tr>
                                     <td></td>
-                                    <td class="link"><a href="book-now">BOOK NOW</a></td>
+                                    <td class="link"><a href="{{ route("home.order.book-now") }}">BOOK NOW</a></td>
                                 </tr>
                                 </tbody>
                             </table>
@@ -331,7 +331,7 @@
                                 </tr>
                                 <tr>
                                     <td></td>
-                                    <td class="link"><a href="book-now">BOOK NOW</a></td>
+                                    <td class="link"><a href="{{ route("home.order.book-now") }}">BOOK NOW</a></td>
                                 </tr>
                                 </tbody>
                             </table>
@@ -360,7 +360,7 @@
                             </div>
                         </div>
                         <p>If you’re not happy with our work, we make it right!</p>
-                        <a href="book-now" target="_self" class="btn btn-success btn-book-now">
+                        <a href="{{ route("home.order.book-now") }}" target="_self" class="btn btn-success btn-book-now">
                             <span class="fl-button-text">BOOK NOW</span>
                         </a>
                     </div>

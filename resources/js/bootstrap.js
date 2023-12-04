@@ -6,11 +6,12 @@
 
 import axios from 'axios';
 import Jquery from 'jquery';
-import * as bootstrap from 'bootstrap';
-
+import vue from 'vue/dist/vue.cjs.prod.js';
+// import vue from 'vue/dist/vue.runtime.esm-bundler.js';
+window.vue = vue;
 window.$ = Jquery;
 window.axios = axios;
-window.bootstrap = bootstrap;
+
 
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 

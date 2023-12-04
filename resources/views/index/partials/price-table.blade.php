@@ -59,9 +59,9 @@
                 </tr>
                 <tr>
                     <td></td>
-                    <td class="link"><a href="book-now">BOOK NOW</a></td>
-                    <td class="link"><a href="book-now">BOOK NOW</a></td>
-                    <td class="link"><a href="book-now">BOOK NOW</a></td>
+                    <td class="link"><a href="{{ route("home.order.book-now") }}">BOOK NOW</a></td>
+                    <td class="link"><a href="{{ route("home.order.book-now") }}">BOOK NOW</a></td>
+                    <td class="link"><a href="{{ route("home.order.book-now") }}">BOOK NOW</a></td>
                 </tr>
                 </tbody>
             </table>
@@ -166,9 +166,9 @@
             </tr>
             <tr>
                 <td></td>
-                <td class="link"><a href="book-now">BOOK NOW</a></td>
-                <td class="link"><a href="book-now">BOOK NOW</a></td>
-                <td class="link"><a href="book-now">BOOK NOW</a></td>
+                <td class="link"><a href="{{ route("home.order.book-now") }}">BOOK NOW</a></td>
+                <td class="link"><a href="{{ route("home.order.book-now") }}">BOOK NOW</a></td>
+                <td class="link"><a href="{{ route("home.order.book-now") }}">BOOK NOW</a></td>
             </tr>
             </tbody>
         </table>
