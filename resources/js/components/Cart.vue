@@ -1,9 +1,10 @@
 <script>
 import Addon from "@/components/Addon.vue";
 import axios from "axios";
+import {Modal} from "bootstrap";
 
 export default {
-  components: {Addon},
+  components: {Modal, Addon},
   props: {
     action: String,
     resources: String,
@@ -28,6 +29,8 @@ export default {
     apt_suite: "",
     post_code: "",
     state: "",
+    modalTitle: "",
+    modalContent: ""
   }),
 
   created() {
@@ -44,6 +47,7 @@ export default {
   },
   methods: {
     async submit() {
+      let _this = this;
       let form = {
         category: this.category_selected,
         bedroom: this.bedroom_selected,
@@ -62,12 +66,16 @@ export default {
         total_price: this.total_amount,
         _token: this.action
       };
-
+      _this.modalTitle = "Order Successfully";
+      _this.modalContent = "Your Order is successfully, We will contact you in ASAP.";
+      const modal = new Modal('#staticBackdrop', {
+        keyboard: false
+      });
       axios.put("book-now", form).then(function (response){
+
         if(response.data.success){
           let order = response.data.order;
-          alert("Your order is successfully. We will contact you ASAP.");
-          location.href = "https://megacm.com.au";
+          modal.show();
         }
       })
     },
@@ -225,6 +233,22 @@ export default {
             </div>
           </div>
           <button type="submit" class="d-block btn btn-success btn-book-now mx-auto mx-auto">BOOK NOW</button>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">{{ modalTitle }}</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            {{ modalContent}}
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
         </div>
       </div>
     </div>

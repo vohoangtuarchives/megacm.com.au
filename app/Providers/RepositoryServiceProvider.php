@@ -63,6 +63,8 @@ $this->app->bind("App\Repository\FaqCategories\FaqCategoryRepositoryContract", "
 $this->app->bind("App\Repository\Blogs\BlogRepositoryContract", "App\Repository\Blogs\BlogRepository");
 $this->app->bind("App\Repository\BlogCategories\BlogCategoryRepositoryContract", "App\Repository\BlogCategories\BlogCategoryRepository");
 $this->app->bind("App\Repository\NewsLists\NewsListRepositoryContract", "App\Repository\NewsLists\NewsListRepository");
+$this->app->bind("App\Repository\Orders\OrderRepositoryContract", "App\Repository\Orders\OrderRepository");
+$this->app->bind("App\Repository\OrderItems\OrderItemRepositoryContract", "App\Repository\OrderItems\OrderItemRepository");
 //NewBindRepository
 
     }
