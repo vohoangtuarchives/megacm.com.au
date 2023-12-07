@@ -27,7 +27,7 @@
     <div class="block py-5">
         <div class="container mw-1200">
             <h3 class="h3-title text-center">
-                <span>Take Time Off and Leave the Cleaning to Us 1</span>
+                <span>Take Time Off and Leave the Cleaning to Us</span>
             </h3>
             <div class="row">
                 <div class="col-lg-6 col-12 order-1">
