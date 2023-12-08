@@ -76,42 +76,42 @@
                </p>
                <ul class="x_blc_service flex-wrap">
                    <li>
-                       <a href="https://www.maidforyou.com.au/services/">
+                       <a href="https://megacm.com.au/services/">
                            <img decoding="async" src="https://www.maidforyou.com.au/wp-content/uploads/2022/12/vector_smart_object27.png" alt="House" data-lazy-src="https://www.maidforyou.com.au/wp-content/uploads/2022/12/vector_smart_object27.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img decoding="async" src="https://www.maidforyou.com.au/wp-content/uploads/2022/12/vector_smart_object27.png" alt="House"></noscript>
                            <p>House Cleaning
                            </p></a>
                    </li>
-                   <li><a href="https://www.maidforyou.com.au/services/office-cleaning-sydney/">
+                   <li><a href="https://megacm.com.au/services/office-cleaning">
                            <img decoding="async" src="https://www.maidforyou.com.au/wp-content/uploads/2022/12/vector_smart_object17.png" alt="Office" data-lazy-src="https://www.maidforyou.com.au/wp-content/uploads/2022/12/vector_smart_object17.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img decoding="async" src="https://www.maidforyou.com.au/wp-content/uploads/2022/12/vector_smart_object17.png" alt="Office"></noscript>
                            <p>Office Cleaning
                            </p></a>
                    </li>
-                   <li><a href="https://www.maidforyou.com.au/services/regular-cleaning-sydney/">
+                   <li><a href="https://megacm.com.au/services/regular-cleaning">
                            <img decoding="async" src="https://www.maidforyou.com.au/wp-content/uploads/2022/12/vector_smart_object18.png" alt="Regular" data-lazy-src="https://www.maidforyou.com.au/wp-content/uploads/2022/12/vector_smart_object18.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img decoding="async" src="https://www.maidforyou.com.au/wp-content/uploads/2022/12/vector_smart_object18.png" alt="Regular"></noscript>
                            <p>Regular Cleaning
                            </p></a>
                    </li>
-                   <li><a href="https://www.maidforyou.com.au/services/end-of-lease-cleaning-sydney/">
+                   <li><a href="https://megacm.com.au/services/end-of-lease-cleaning">
                            <img decoding="async" src="https://www.maidforyou.com.au/wp-content/uploads/2022/12/vector_smart_object19.png" alt="End of Lease" data-lazy-src="https://www.maidforyou.com.au/wp-content/uploads/2022/12/vector_smart_object19.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img decoding="async" src="https://www.maidforyou.com.au/wp-content/uploads/2022/12/vector_smart_object19.png" alt="End of Lease"></noscript>
                            <p>End of Lease Cleaning
                            </p></a>
                    </li>
-                   <li><a href="https://www.maidforyou.com.au/services/deep-cleaning-services-sydney/">
+                   <li><a href="https://megacm.com.au/services/deep-cleaning-services">
                            <img decoding="async" src="https://www.maidforyou.com.au/wp-content/uploads/2022/12/vector_smart_object20.png" alt="Deep" data-lazy-src="https://www.maidforyou.com.au/wp-content/uploads/2022/12/vector_smart_object20.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img decoding="async" src="https://www.maidforyou.com.au/wp-content/uploads/2022/12/vector_smart_object20.png" alt="Deep"></noscript>
                            <p>Deep Cleaning
                            </p></a>
                    </li>
-                   <li><a href="https://www.maidforyou.com.au/services/construction-cleaning/">
+                   <li><a href="https://megacm.com.au/services/construction-cleaning/">
                            <img decoding="async" src="https://www.maidforyou.com.au/wp-content/uploads/2022/12/vector_smart_object24.png" alt="Construction" data-lazy-src="https://www.maidforyou.com.au/wp-content/uploads/2022/12/vector_smart_object24.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img decoding="async" src="https://www.maidforyou.com.au/wp-content/uploads/2022/12/vector_smart_object24.png" alt="Construction"></noscript>
                            <p>Construction Cleaning
                            </p></a>
                    </li>
-                   <li><a href="https://www.maidforyou.com.au/services/ndis-cleaning/">
+                   <li><a href="https://megacm.com.au/services/ndis-cleaning/">
                            <img decoding="async" src="https://www.maidforyou.com.au/wp-content/uploads/2022/12/vector_smart_object25.png" alt="NDIS" data-lazy-src="https://www.maidforyou.com.au/wp-content/uploads/2022/12/vector_smart_object25.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img decoding="async" src="https://www.maidforyou.com.au/wp-content/uploads/2022/12/vector_smart_object25.png" alt="NDIS"></noscript>
                            <p>NDIS Cleaning
                            </p></a>
                    </li>
-                   <li><a href="https://www.maidforyou.com.au/services/oven-cleaning/">
+                   <li><a href="https://megacm.com.au/services/oven-cleaning/">
                            <img decoding="async" src="https://www.maidforyou.com.au/wp-content/uploads/2022/12/vector_smart_object26.png" alt="Oven" data-lazy-src="https://www.maidforyou.com.au/wp-content/uploads/2022/12/vector_smart_object26.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img decoding="async" src="https://www.maidforyou.com.au/wp-content/uploads/2022/12/vector_smart_object26.png" alt="Oven"></noscript>
                            <p>Oven Cleaning</p></a>
                    </li>
@@ -251,32 +251,32 @@
 {{--            <div class="__content">--}}
 {{--                <ul class="x_blc_service flex-wrap">--}}
 {{--                    <li>--}}
-{{--                        <a href="https://www.maidforyou.com.au/services/">--}}
+{{--                        <a href="https://megacm.com.au/services/">--}}
 {{--                            <img decoding="async" src="https://www.maidforyou.com.au/wp-content/uploads/2022/12/vector_smart_object27.png" alt="Houses" data-lazy-src="https://www.maidforyou.com.au/wp-content/uploads/2022/12/vector_smart_object27.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img decoding="async" src="https://www.maidforyou.com.au/wp-content/uploads/2022/12/vector_smart_object27.png" alt="Houses"></noscript>--}}
 {{--                            <p>Houses--}}
 {{--                            </p></a>--}}
 {{--                    </li>--}}
-{{--                    <li><a href="https://www.maidforyou.com.au/services/">--}}
+{{--                    <li><a href="https://megacm.com.au/services/">--}}
 {{--                            <img decoding="async" src="https://www.maidforyou.com.au/wp-content/uploads/2022/12/vector_smart_object28.png" alt="Apartments" data-lazy-src="https://www.maidforyou.com.au/wp-content/uploads/2022/12/vector_smart_object28.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img decoding="async" src="https://www.maidforyou.com.au/wp-content/uploads/2022/12/vector_smart_object28.png" alt="Apartments"></noscript>--}}
 {{--                            <p>Apartments--}}
 {{--                            </p></a>--}}
 {{--                    </li>--}}
-{{--                    <li><a href="https://www.maidforyou.com.au/services/">--}}
+{{--                    <li><a href="https://megacm.com.au/services/">--}}
 {{--                            <img decoding="async" src="https://www.maidforyou.com.au/wp-content/uploads/2022/12/vector_smart_object29.png" alt="Townhouses" data-lazy-src="https://www.maidforyou.com.au/wp-content/uploads/2022/12/vector_smart_object29.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img decoding="async" src="https://www.maidforyou.com.au/wp-content/uploads/2022/12/vector_smart_object29.png" alt="Townhouses"></noscript>--}}
 {{--                            <p>Townhouses--}}
 {{--                            </p></a>--}}
 {{--                    </li>--}}
-{{--                    <li><a href="https://www.maidforyou.com.au/services/">--}}
+{{--                    <li><a href="https://megacm.com.au/services/">--}}
 {{--                            <img decoding="async" src="https://www.maidforyou.com.au/wp-content/uploads/2022/12/vector_smart_object30.png" alt="Estates" data-lazy-src="https://www.maidforyou.com.au/wp-content/uploads/2022/12/vector_smart_object30.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img decoding="async" src="https://www.maidforyou.com.au/wp-content/uploads/2022/12/vector_smart_object30.png" alt="Estates"></noscript>--}}
 {{--                            <p>Estates--}}
 {{--                            </p></a>--}}
 {{--                    </li>--}}
-{{--                    <li><a href="https://www.maidforyou.com.au/services/construction-cleaning/">--}}
+{{--                    <li><a href="https://megacm.com.au/services/construction-cleaning/">--}}
 {{--                            <img decoding="async" src="https://www.maidforyou.com.au/wp-content/uploads/2022/12/vector_smart_object31.png" alt="Recently renovated buildings" data-lazy-src="https://www.maidforyou.com.au/wp-content/uploads/2022/12/vector_smart_object31.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img decoding="async" src="https://www.maidforyou.com.au/wp-content/uploads/2022/12/vector_smart_object31.png" alt="Recently renovated buildings"></noscript>--}}
 {{--                            <p>Recently renovated buildings--}}
 {{--                            </p></a>--}}
 {{--                    </li>--}}
-{{--                    <li><a href="https://www.maidforyou.com.au/services/office-cleaning-sydney/">--}}
+{{--                    <li><a href="https://megacm.com.au/services/office-cleaning">--}}
 {{--                            <img decoding="async" src="https://www.maidforyou.com.au/wp-content/uploads/2022/12/vector_smart_object32.png" alt="Small offices" data-lazy-src="https://www.maidforyou.com.au/wp-content/uploads/2022/12/vector_smart_object32.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img decoding="async" src="https://www.maidforyou.com.au/wp-content/uploads/2022/12/vector_smart_object32.png" alt="Small offices"></noscript>--}}
 {{--                            <p>Small offices--}}
 {{--                            </p></a>--}}
