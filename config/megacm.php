@@ -71,7 +71,7 @@ return [
                 'Oven Cleaning',
                 'Balcony/Garage/Patio Sweep',
                 'Full Wall Washing',
-                'Carpet Steam Cleaning',
+                'Carpet Cleaning',
                 'Granny Flat Cleaning',
                 'End of Lease Cleaning',
                 'Construction Cleaning',

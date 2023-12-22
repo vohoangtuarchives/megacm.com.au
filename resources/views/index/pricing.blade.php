@@ -23,6 +23,29 @@
                 space they clean!
             </div>
         </div>
+        <div class="container text-center">
+            <div class="row mt-3 mb-2">
+                <div class="col-md-6 col-12">
+                    <p class="text-cneter h3-title" style="font-size: 18px;">
+                        *Bonded &amp; Insured
+                    </p>
+                </div>
+                <div class="col-md-6 col-12">
+                    <p class="text-cneter h3-title" style="font-size: 18px;">*200% Satisfaction Guaranteed</p>
+                </div>
+                <div class="col-md-6 col-12">
+                    <p class="text-cneter h3-title" style="font-size: 18px;">
+                    *Environmentally Friendly Cleaning
+                    </p>
+                </div>
+                <div class="col-md-6 col-12">
+                    <p class="text-cneter h3-title" style="font-size: 18px;">
+                    *Fully Police checked
+                    </p>
+            </div>
+
+
+        </div>
     </div>
     <div class="block py-5">
         <div class="container">

@@ -62,128 +62,19 @@
         </div>
     </div>
 </div>
-<div class="block py-5">
-    <div class="container">
-        <h3 class="h3-title text-center">
-                    <span>
-                        Dry Carpet Cleaning
-                    </span>
-        </h3>
-        <div class="content">
-            Dry carpet cleaning is the alternative method, yet still effective, when working with delicate carpet fibres such as seagrass, jute, pure cotton, or other natural materials. In this carpet cleaning process, our technicians will use a high-grade vacuum cleaner to remove dirt and dust, followed by the application of a dry cleaning powder that will attract dirt remnants as the fibres are agitated with another piece of equipment known as a spinning rotary bonnet. The service is completed with a final power vacuum of the carpet to remove the contaminated powder.
-        </div>
-    </div>
-</div>
 
-<div class="block">
-    <div class="container">
-        <div class="mw-1200">
-            <div class="row">
-                <div class="col-md-6 col-12">
-                    <h3 class="h3-title my-4">
-                        <span>Carpet Shampooing</span>
-                    </h3>
-                    <p>
-                        With this cleaning method, we will take excellent care of your heavily soiled carpets and rugs using a carpet shampooing machine. The foamy cleaning solution will cut through grease, grime, and dirt before we finally extract the shampoo and water with the same powerful machine that removes up 95% of moisture!
-                    </p>
-                    <div class="my-3">
-                        <a href="{{ route("home.order.book-now") }}" target="_self" class="btn btn-success btn-book-now py-3 px-5">
-                            <span class="fl-button-text">BOOK NOW</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-6 col-12">
-                    <div class="__image d-lg-flex justify-content-end align-items-center">
-                        <img src="{{ asset("images/Carpet-Shampooing.png") }}"
-                             class="img-fluid w-480"
-                             alt="Why-Choose-Maid-For-Yous-Office-Cleaning-Service.png">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="block">
-    <div class="container">
-        <div class="mw-1200">
-            <div class="row">
-
-                <div class="col-md-6 col-12">
-                    <div class="__image d-lg-flex justify-content-start align-items-center">
-                        <img src="{{ asset("images/Remove-Odours-From-Carpets.png") }}"
-                             class="img-fluid w-480"
-                             alt="Why-Choose-Maid-For-Yous-Office-Cleaning-Service.png">
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-12">
-                    <h3 class="h3-title my-4">
-                        <span>Remove Odours From Carpets</span>
-                    </h3>
-                    <p>
-                        After a carpet cleaning service from <strong>MegaCM</strong>, be it dry cleaning, steam
-                        cleaning, or shampooing,
-                            you can be sure of two things – immaculate and fresh-smelling carpets and rugs! By paying close attention to detail, our carpet cleaners will address the root cause of the foul smell and carry out odour-eliminating cleaning methods to ensure a fresh, pleasant-smelling result.
-                    </p>
-                    <div class="my-3">
-                        <a href="{{ route("home.order.book-now") }}" target="_self" class="btn btn-success btn-book-now py-3 px-5">
-                            <span class="fl-button-text">BOOK NOW</span>
-                        </a>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-</div>
-<div class="block bg-grey py-5">
-    <div class="container">
-        <div class="mw-1200">
-            <h3 class="h3-title text-center my-4">
-                <span>Complete Stain Removal Services</span>
-            </h3>
-            <p>
-                Stains are inevitable and also the number one reason why homeowners give up on their favourite carpets and rugs altogether, perhaps after a failed attempt at removing the stain(s) with a DIY approach. This is one of the many reasons why professional carpet cleaning services from a trusted company are in high demand.
-            </p>
-            <div class="row g-5">
-                <div class="col-md-4 col-12">
-                    @include("index.components.item_three", [
-                        'image' => asset("images/Blood-Stains.png"),
-                        'title' => "Blood Stains",
-                        'content' => 'Whether fresh or old, blood stains on carpeting can be tedious to remove without the help of professional equipment and techniques. Our carpet technicians will use appropriate cleaning solutions and methods to safely and effectively remove blood stains from your carpet.'
-                    ])
-                </div>
-                <div class="col-md-4 col-12">
-                    @include("index.components.item_three", [
-                        'image' => asset("images/Coffee-Stains.png"),
-                        'title' => "Coffee Stains",
-                        'content' => 'If a regular carpet cleaning method is requested, fresh coffee stains will typically come out during the cleaning process depending on the severity of the stain. However, if needed, we will specially spot-treat the area to effectively remove the entire stain.'
-                    ])
-                </div>
-                <div class="col-md-4 col-12">
-                    @include("index.components.item_three", [
-                        'image' => asset("images/Red-Wine-Stains.png"),
-                        'title' => "Red Wine Stains",
-                        'content' => 'The complete removal of red wine stains is best left to the professionals as harsh stain removers and/or improper cleaning techniques can cause irreparable damage to the carpet fibres. When dealing with tricky red wine stains, you can rest assured that MaidForYou will apply only the safest and most effective stain removal methods for best results.'
-                    ])
-                </div>
-
-            </div>
-        </div>
-    </div>
-</div>
 <div class="block py-5">
     <div class="container">
 
         <div class="row">
             <div class="col-lg-6">
                 <h3 class="h3-title">
-                    <span>Why You Should Purchase Carpet Steam Cleaning Services</span>
+                    <span>Why You Should Purchase Carpet Cleaning Services</span>
                 </h3>
                 Regular cleaning practices carried out by homeowners do a fairly good job at keeping carpets and rugs
                 looking decent. However, getting rid of bacteria, foul odours, tough stains, dirt, and dust trapped
                 within the fibres all require the workings of a skilled and experienced carpet cleaner. With the best
-                carpet steam cleaning service at your disposal, <strong>MegaCM</strong> promises 100% satisfactory
+                carpet cleaning service at your disposal, <strong>MegaCM</strong> promises 100% satisfactory
                 results and the
                     best value for money!
             </div>

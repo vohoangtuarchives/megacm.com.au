@@ -89,11 +89,6 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="{{ route("home.services.service", 'oven-cleaning') }}">
-                                        Oven Cleaning
-                                    </a>
-                                </li>
-                                <li>
                                     <a href="{{ route("home.services.service", 'pressure-cleaning') }}">
                                         Pressure Cleaning
                                     </a>

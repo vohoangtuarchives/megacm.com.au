@@ -15,33 +15,33 @@
                     </tr>
                     <tr>
                         <td>1 Bedroom</td>
-                        <td>$154</td>
-                        <td>$223</td>
-                        <td>$390</td>
+                        <td>$125</td>
+                        <td>$208</td>
+                        <td>$308</td>
                     </tr>
                     <tr>
                         <td>2 Bedroom</td>
-                        <td>$168</td>
-                        <td>$231</td>
-                        <td>$450</td>
+                        <td>$145</td>
+                        <td>$248</td>
+                        <td>$398</td>
                     </tr>
                     <tr>
                         <td>3 Bedroom</td>
-                        <td>$203</td>
-                        <td>$268</td>
-                        <td>$550</td>
+                        <td>$180</td>
+                        <td>$298</td>
+                        <td>$498</td>
                     </tr>
                     <tr>
                         <td>4 Bedroom</td>
-                        <td>$248</td>
-                        <td>$347</td>
-                        <td>$660</td>
+                        <td>$220</td>
+                        <td>$358</td>
+                        <td>$598</td>
                     </tr>
                     <tr>
                         <td>5+ Bedroom</td>
-                        <td>$269</td>
-                        <td>$397</td>
-                        <td>$900</td>
+                        <td>$260</td>
+                        <td>$398</td>
+                        <td>$698</td>
                     </tr>
                     <tr>
                         <td></td>
@@ -262,7 +262,7 @@
                         <td>Included</td>
                     </tr>
                     <tr>
-                        <td>Carpet Steam Cleaning</td>
+                        <td>Carpet Cleaning</td>
                         <td>$110 per room<br>
                             (2 room minimum)</td>
                         <td>$110 per room<br>
