@@ -4423,30 +4423,6 @@
           "discount_by_code": true
         },
         {
-          "id": 119,
-          "name": "Large Balcony - $75",
-          "price": 75,
-          "quantity_based": true,
-          "ordering": 116,
-          "image": "77bbacb464c198efea457366b3b386cfab31af38.png",
-          "description": "Full deep scrubbing and cleaning of a large balcony to end of lease cleaning standards",
-          "recurring": true,
-          "discount_by_frequency": true,
-          "discount_by_code": true
-        },
-        {
-          "id": 120,
-          "name": "Shutters",
-          "price": 15,
-          "quantity_based": true,
-          "ordering": 117,
-          "image": "55ffab505de5e905380c5d35fecd3ed83697cf43.png",
-          "description": "Full wet wipe and clean of all shutters, these are not included in our standard end of lease package. Price is per shutter.",
-          "recurring": true,
-          "discount_by_frequency": true,
-          "discount_by_code": true
-        },
-        {
           "id": 154,
           "name": "Carpet Steam Cleaning Hall Way - $75",
           "price": 75,

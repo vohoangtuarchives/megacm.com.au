@@ -11,12 +11,7 @@ use Illuminate\Support\Str;
 
 class OrderController extends HomeController
 {
-    public function services(){
-        $services = json_decode(
-            file_get_contents(resource_path("data/items.json")), true
-        );
-        return response()->json($services);
-    }
+
     public function book(){
         return view("index.orders.book-now");
     }

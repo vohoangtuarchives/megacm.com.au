@@ -22,3 +22,6 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 Route::prefix("faq")->group(function (){
     Route::get('/', [FaqController::class, 'getAll']);
 });
+Route::name("home.")->group(function (){
+    Route::get("order/services", [\App\Http\Controllers\Api\ServiceAPI::class , "services"])->name("order.services");
+});

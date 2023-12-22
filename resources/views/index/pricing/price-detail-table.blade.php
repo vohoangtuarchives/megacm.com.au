@@ -233,8 +233,8 @@
                     </tr>
                     <tr>
                         <td>Oven Cleaning</td>
-                        <td>$59</td>
-                        <td>$59</td>
+                        <td>$100</td>
+                        <td>$100</td>
                         <td>Included</td>
                     </tr>
                     <tr>
@@ -272,15 +272,15 @@
                     </tr>
                     <tr>
                         <td>Additional Full Bathrooms (ea)</td>
-                        <td>$22</td>
-                        <td>$22</td>
-                        <td>$22</td>
+                        <td>$50</td>
+                        <td>$50</td>
+                        <td>$50</td>
                     </tr>
                     <tr>
                         <td>Additional Half Bathrooms (ea)</td>
-                        <td>$15</td>
-                        <td>$15</td>
-                        <td>$15</td>
+                        <td>$25</td>
+                        <td>$25</td>
+                        <td>$25</td>
                     </tr>
                     <tr>
                         <td>Exterior Window Cleaning</td>
